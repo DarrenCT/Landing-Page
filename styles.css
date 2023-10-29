@@ -1,0 +1,18 @@
+.header, .hero{
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+}
+
+.hero p{
+    font-size: 48px;
+}
+
+a :visited {
+color: greenyellow;
+}
+
+.header-right {
+    float: right;
+    color: white;
+}
