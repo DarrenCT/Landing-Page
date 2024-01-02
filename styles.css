@@ -1,18 +1,59 @@
-.header, .hero{
+/* Add your CSS styling here */
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
     background-color: #1F2937;
     color: white;
-    font-size: 18px;
 }
-
-.hero p{
-    font-size: 48px;
+.logo {
+    height: 75px;
+    width: auto;
 }
-
-a :visited {
-color: greenyellow;
-}
-
-.header-right {
-    float: right;
+nav a ,a:visited{
+    margin: 0 30px;
+    text-decoration: none;
     color: white;
+}
+.section1 {
+    text-align: center;
+    padding: 50px 20px;
+}
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.info-box {
+    border: 2px solid blue;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.quote-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+.cta-section {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.cta-button {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+footer{
+    color: white;
+    background-color: #1F2937; 
 }
