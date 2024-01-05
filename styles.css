@@ -69,14 +69,14 @@ nav a ,a:visited{
 }
 
 .quote {
-    font-style: italic; /* Italicize the quote text */
-    color: #333; /* Dark text color */
-    font-size: 18px; /* Adjust the font-size as needed */
-    line-height: 1.6; /* Adjust line height for better readability */
-    max-width: 800px; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the blockquote in the section */
-    position: relative; /* Allows absolute positioning of the cite element */
-    padding: 0; /* Removes padding */
+    font-style: italic; 
+    color: #333; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    position: relative; 
+    padding: 0; 
 }
 
 .quote cite {
