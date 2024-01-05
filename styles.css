@@ -12,17 +12,43 @@ header {
 .logo {
     height: 75px;
     width: auto;
+    margin-top: -20px;
 }
 nav a ,a:visited{
-    margin: 0 30px;
+    margin: 0 10px;
     text-decoration: none;
     color: white;
 }
 .section1 {
-    text-align: center;
+    color: white;
     padding: 50px 20px;
+    background-color: #1F2937;
+    display: flex;
 }
-.info-section {
+
+.section1-text{
+    margin-left: 20%;
+    flex: 1;
+}
+
+.section1-image{
+    flex: 1;
+    margin-right: 15%;
+}
+
+.sign-up{
+	background-color:#3B82F6;
+	border-radius:10px;
+	display:inline-block;
+	color: white;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+	
+}
+
+.section2 {
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -33,27 +59,34 @@ nav a ,a:visited{
     padding: 20px;
     box-sizing: border-box;
 }
-.quote-section {
+.section3 {
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
 }
 .cta-section {
-    background-color: #003366;
+    background-color: #3B82F6;
     color: white;
     text-align: center;
     padding: 20px;
 }
 .cta-button {
-    background-color: #0066cc;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 10px;
+    background-color:#3B82F6;
+	border-radius:10px;
+    border: 10px;
+    border-color: white;
+	display:inline-block;
+	color: white;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
 }
 
 footer{
     color: white;
     background-color: #1F2937; 
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
