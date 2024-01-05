@@ -41,11 +41,14 @@ nav a ,a:visited{
 	border-radius:10px;
 	display:inline-block;
 	color: white;
-	font-size:15px;
-	font-weight:bold;
+	font-size:16px;
 	padding:10px 25px;
 	text-decoration:none;
 	
+}
+
+.sign-up:hover{
+    background-color: #1568ee;
 }
 
 .section2 {
@@ -65,23 +68,45 @@ nav a ,a:visited{
     text-align: center;
 }
 .cta-section {
-    background-color: #3B82F6;
-    color: white;
-    text-align: center;
-    padding: 20px;
+    background-color: #3B82F6; 
+    padding: 20px; 
+    text-align: center; 
+    border-radius: 10px; 
+    margin: 50px 350px; 
 }
+
+.cta-content {
+    display: inline-block; 
+    max-width: 600px; 
+}
+
+.cta-text {
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 5px; 
+}
+
+.cta-subtext {
+    color: white; 
+    font-size: 16px; 
+    margin-bottom: 20px; 
+}
+
 .cta-button {
-    background-color:#3B82F6;
-	border-radius:10px;
-    border: 10px;
-    border-color: white;
-	display:inline-block;
-	color: white;
-	font-size:15px;
-	font-weight:bold;
-	padding:10px 25px;
-	text-decoration:none;
+    background-color: white; 
+    color: #3B82F6; 
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px 25px;  
+    font-size: 16px; 
+    cursor: pointer; 
 }
+
+.cta-button:hover {
+    background-color: #e7e7e7; 
+}
+
 
 footer{
     color: white;
